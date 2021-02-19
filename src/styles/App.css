@@ -14,3 +14,22 @@ button{
 .bg-pink{
 	background-color:pink;
 }
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+#select{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#data{
+    display: flex;
+    flex-direction: column;
+}
+#data div{
+    padding: 10px;
+}
